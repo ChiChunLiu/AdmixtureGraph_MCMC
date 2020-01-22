@@ -1,0 +1,13 @@
+DIR: data
+genotypename: DIR/1.geno
+snpname: DIR/1.snp
+indivname: DIR/1.ind
+outpop: Outgroup
+blgsize: 0.001
+diag: .0001
+hires: YES
+initmix: 1000
+precision: .0001
+zthresh: 2.0
+terse: NO
+useallsnps: NO

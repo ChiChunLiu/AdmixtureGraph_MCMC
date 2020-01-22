@@ -1,0 +1,15 @@
+root	n000
+label	Outgroup	n001
+label	S1	n002
+label	S2	n004
+label	Adm	n010
+edge	b_n000_n001	n000	n001
+edge	b_n000_n003	n000	n003
+edge	b_n003_n005	n003	n005
+edge	b_n005_n002	n005	n002
+edge	b_n005_n006	n005	n006
+edge	b_n003_n007	n003	n007
+edge	b_n007_n004	n007	n004
+edge	b_n007_n008	n007	n008
+edge	b_n009_n010	n009	n010
+admix	n009	n006	n008	50	50

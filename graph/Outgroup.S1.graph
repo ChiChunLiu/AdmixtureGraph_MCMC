@@ -1,0 +1,5 @@
+root	n000
+label	Outgroup	n001
+label	S1	n002
+edge	b_n000_n001	n000	n001
+edge	b_n000_n002	n000	n002

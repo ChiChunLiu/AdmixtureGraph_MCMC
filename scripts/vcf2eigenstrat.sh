@@ -1,5 +1,4 @@
 #!/bin/sh
-
 module load plink 
 module load gsl
 module load openblas
@@ -29,7 +28,7 @@ plink --vcf $1.vcf.gz \
 make_convertf_par $1
 $convertf -p $tmppar
 
-pop="S2 S2 S2 S2 Adm Adm Adm Adm S1 S1 S1 S1"
+pop="S2 S2 S2 S2 Adm Adm Adm Adm S1 S1 S1 S1 Outgroup Outgroup"
 echo $pop | tr ' \t' '\n' > $1.pop.tmp
 
 awk '{print $1,$2}' $1.ind | paste - $1.pop.tmp > $1.tmp

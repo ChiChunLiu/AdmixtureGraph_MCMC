@@ -1,0 +1,30 @@
+PLINK v1.90b6.9 64-bit (4 Mar 2019)
+Options in effect:
+  --const-fid 0
+  --keep-allele-order
+  --make-bed
+  --out tutorial_datasets/1
+  --recode
+  --vcf tutorial_datasets/1.vcf.gz
+
+Hostname: midway2-login2.rcc.local
+Working directory: /project2/jnovembre/ccliu/utils/AdmixtreGraph2020
+Start time: Tue Jan 21 20:25:55 2020
+
+Random number seed: 1579659955
+257136 MB RAM detected; reserving 128568 MB for main workspace.
+--vcf: tutorial_datasets/1-temporary.bed + tutorial_datasets/1-temporary.bim +
+tutorial_datasets/1-temporary.fam written.
+5676 variants loaded from .bim file.
+12 people (0 males, 0 females, 12 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to tutorial_datasets/1.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 12 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+5676 variants and 12 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to tutorial_datasets/1.bed + tutorial_datasets/1.bim +
+tutorial_datasets/1.fam ... done.
+--recode ped to tutorial_datasets/1.ped + tutorial_datasets/1.map ... done.
+
+End time: Tue Jan 21 20:25:55 2020

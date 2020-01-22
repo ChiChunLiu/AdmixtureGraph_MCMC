@@ -5,5 +5,6 @@ library(R.utils)
 source("scripts/plotting_funcs.R")
 
 prefix="data/treemix"
+png(filename="data/fig/treemix.png")
 plot_tree(cex=0.8, prefix)
-plot_resid(stem=paste0(prefix,".",edge),pop_order="dogs.list")
+dev.off()

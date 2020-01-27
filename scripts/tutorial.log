@@ -104,3 +104,4 @@ INFO:momi.demo_model:{it: 9, KLDivergence: Autograd ArrayBox with value 0.488673
 INFO:momi.demo_model:{it: 10, KLDivergence: Autograd ArrayBox with value 0.4886711317251044, t_Adm_S2: 361339.04403750924, t_anc: 931746.0858379886, t_out: 2425012.732195628, p_pulse: 0.3556958315865176, t_pulse: 361198.4073317644, t_ghost: 361243.4290366722}
 INFO:momi.demo_model:{it: 11, KLDivergence: Autograd ArrayBox with value 0.4886710451740402, t_Adm_S2: 361724.5716556567, t_anc: 932139.642099478, t_out: 2425185.5331297554, p_pulse: 0.3554064486911339, t_pulse: 361583.7882290003, t_ghost: 361628.80365863483}
 INFO:momi.demo_model:{it: 12, KLDivergence: Autograd ArrayBox with value 0.4886710441220207, t_Adm_S2: 361712.8118130872, t_anc: 932157.9114537137, t_out: 2425301.6512413477, p_pulse: 0.3553497464942954, t_pulse: 361572.04896198615, t_ghost: 361617.03302015364}
+WARNING:momi.demo_plotter:Trying to plot pulse p 0.3 not in (0, 0.25)

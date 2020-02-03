@@ -105,3 +105,38 @@ INFO:momi.demo_model:{it: 10, KLDivergence: Autograd ArrayBox with value 0.48867
 INFO:momi.demo_model:{it: 11, KLDivergence: Autograd ArrayBox with value 0.4886710451740402, t_Adm_S2: 361724.5716556567, t_anc: 932139.642099478, t_out: 2425185.5331297554, p_pulse: 0.3554064486911339, t_pulse: 361583.7882290003, t_ghost: 361628.80365863483}
 INFO:momi.demo_model:{it: 12, KLDivergence: Autograd ArrayBox with value 0.4886710441220207, t_Adm_S2: 361712.8118130872, t_anc: 932157.9114537137, t_out: 2425301.6512413477, p_pulse: 0.3553497464942954, t_pulse: 361572.04896198615, t_ghost: 361617.03302015364}
 WARNING:momi.demo_plotter:Trying to plot pulse p 0.3 not in (0, 0.25)
+INFO:momi.data.sfs:Reading json...
+INFO:momi.data.sfs:Finished reading json...
+INFO:momi.data.sfs:Constructing configs...
+INFO:momi.data.sfs:1399 unique configs detected
+INFO:momi.data.sfs:Converted to numpy array...
+INFO:momi.data.sfs:Finished constructing configs
+INFO:momi.data.sfs:Constructing SFS...
+INFO:momi.data.sfs:Finished constructing SFS
+INFO:momi.data.sfs:Reading json...
+INFO:momi.data.sfs:Finished reading json...
+INFO:momi.data.sfs:Constructing configs...
+INFO:momi.data.sfs:2545 unique configs detected
+INFO:momi.data.sfs:Converted to numpy array...
+INFO:momi.data.sfs:Finished constructing configs
+INFO:momi.data.sfs:Constructing SFS...
+INFO:momi.data.sfs:Finished constructing SFS
+WARNING:momi.demo_plotter:Trying to plot pulse p 0.3 not in (0, 0.25)
+WARNING:momi.demo_plotter:Trying to plot pulse p 0.3 not in (0, 0.25)
+WARNING:momi.demo_plotter:Trying to plot pulse p 0.3 not in (0, 0.25)
+WARNING:momi.demo_plotter:Trying to plot pulse p 0.3 not in (0, 0.25)
+WARNING:momi.demo_plotter:Trying to plot pulse p 0.3 not in (0, 0.25)
+WARNING:momi.demo_plotter:Trying to plot pulse p 0.3 not in (0, 0.25)
+WARNING:momi.demo_plotter:Trying to plot pulse p 0.3 not in (0, 0.25)
+WARNING:momi.demo_plotter:Trying to plot pulse p 0.3 not in (0, 0.25)
+WARNING:momi.demo_plotter:Trying to plot pulse p 0.3 not in (0, 0.25)
+WARNING:momi.demo_plotter:Trying to plot pulse p 0.3 not in (0, 0.25)
+WARNING:momi.demo_plotter:Trying to plot pulse p 0.3 not in (0, 0.25)
+WARNING:momi.demo_plotter:Trying to plot pulse p 0.3 not in (0, 0.25)
+WARNING:momi.demo_plotter:Trying to plot pulse p 0.3 not in (0, 0.25)
+WARNING:momi.demo_plotter:Trying to plot pulse p 0.3 not in (0, 0.25)
+WARNING:momi.demo_plotter:Trying to plot pulse p 0.3 not in (0, 0.25)
+WARNING:momi.demo_plotter:Trying to plot pulse p 0.3 not in (0, 0.25)
+WARNING:momi.demo_plotter:Trying to plot pulse p 0.3 not in (0, 0.25)
+WARNING:momi.demo_plotter:Trying to plot pulse p 0.3 not in (0, 0.25)
+WARNING:momi.demo_plotter:Trying to plot pulse p 0.3 not in (0, 0.25)

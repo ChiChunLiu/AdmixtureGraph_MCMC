@@ -1,0 +1,123 @@
+parameter file: tmp/tmp.par
+### THE INPUT PARAMETERS
+##PARAMETER NAME: VALUE
+DIR: data
+genotypename: data/standard_rep55.geno
+snpname: data/standard_rep55.snp
+indivname: data/standard_rep55.ind
+outpop: Outgroup
+blgsize: 0.001
+diag: .0001
+hires: YES
+initmix: 1000
+precision: .0001
+zthresh: 2.0
+terse: NO
+useallsnps: NO
+## qpGraph version: 6450
+outpop:  Outgroup
+seed: 1389816311
+Outgroup
+S1
+S2
+Adm
+*** warning: first snp . is number.  perhaps you are using .map format
+
+graph: graph/Outgroup.S1.S2.Adm.2way.1.graph
+
+
+numedge: 9  numancestor: 1
+  0 Outgroup
+  1 S1
+  2 S2
+  3 Adm
+root label: :Outgroup
+outpop: Outgroup
+population:   0             Outgroup    2
+population:   1                   S1    4
+population:   2                   S2    4
+population:   3                  Adm    4
+before setwt numsnps: 17445  outpop: Outgroup
+setwt numsnps: 4507
+number of blocks for moving block jackknife: 50
+snps: 4507  indivs: 14
+lambdascale:     0.688
+fst:
+        O    S    S    A 
+  O     0  281  276  268
+  S   281    0  293  166
+  S   276  293    0  158
+  A   268  166  158    0
+
+f2:
+        O    S    S    A 
+  O     0  400  391  381
+  S   400    0   84   42
+  S   391   84    0   42
+  A   381   42   42    0
+
+ff3:
+        O    S    S    A 
+  O     0    0    0    0
+  S     0  400  354  369
+  S     0  354  391  365
+  A     0  369  365  381
+
+ff3sig*10:
+        O    S    S    A 
+  O     0    0    0    0
+  S     0  186  180  184
+  S     0  180  194  185
+  A     0  184  185  186
+
+starting analysis
+number of initial random trials: 100
+initmixwts:                      :Adm n009 n006 n008     0.532     0.468 
+
+
+initial score:     0.000
+init  vg:
+    0.532 
+gslsetup called
+gslans:    9     0.000081
+    0.534 
+final vg:
+    0.534 
+
+ final score:        0.000  dof: -4 nominal p-val     1.000000
+ff3fit:
+        O    S    S    A 
+  O     0    0    0    0
+  S     0  400  354  369
+  S     0  354  391  365
+  A     0  369  365  380
+
+ff3diff:
+        O    S    S    A 
+  O     0    0    0    0
+  S     0    0    0    0
+  S     0    0    0    0
+  A     0    0    0    0
+
+mix:                      :Adm n009 n006 n008     0.534     0.466 
+
+b_n000_n001 b_n000_n003 b_n003_n005 b_n005_n002 b_n005_n006 b_n003_n007 b_n007_n004 b_n007_n008 b_n009_n010 
+   0.1769    0.1769    0.0287    0.0177    0.0034    0.0233    0.0141    0.0026    0.0119 
+
+
+                      fst:       fitted        estim         diff     std. err   Z score 
+      Out          S1 f2:     0.400071     0.400230     0.000159     0.018616     0.009 
+      Out          S2 f2:     0.391139     0.391305     0.000166     0.019433     0.009 
+      Out        Adm  f2:     0.380440     0.380598     0.000158     0.018595     0.008 
+        S1         S2 f2:     0.083739     0.083742     0.000003     0.009836     0.000 
+        S1       Adm  f2:     0.042408     0.042406    -0.000002     0.007354    -0.000 
+        S2       Adm  f2:     0.042397     0.042397    -0.000000     0.006880    -0.000 
+
+
+outliers:
+                                                      Fit          Obs         Diff   Std. error         Z 
+
+
+worst f-stat:       Out          S1       Out          S2      0.353736     0.353897     0.000161     0.017956     0.009 
+
+## end of qpGraph time:     4.440 seconds memory:     9.826 Mbytes

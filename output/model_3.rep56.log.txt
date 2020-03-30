@@ -1,0 +1,10 @@
+model	parameter	value
+model_1	t_A_B	203921.8468
+model_1	t_B_C	296623.1483
+model_1	log_likelihood	-52764.5018
+model_2	t_C_B	261299.3770
+model_2	t_B_A	261299.3770
+model_2	log_likelihood	-53048.3791
+model_3	t_C_A	261298.8675
+model_3	t_A_B	261298.8675
+model_3	log_likelihood	-53048.3791

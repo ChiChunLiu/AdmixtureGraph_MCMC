@@ -1,7 +1,7 @@
 DIR: data
-genotypename: DIR/1.geno
-snpname: DIR/1.snp
-indivname: DIR/1.ind
+genotypename: DIR/Adm_bottleneck.rep100.geno
+snpname: DIR/Adm_bottleneck.rep100.snp
+indivname: DIR/Adm_bottleneck.rep100.ind
 outpop: Outgroup
 blgsize: 0.001
 diag: .0001

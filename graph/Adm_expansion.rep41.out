@@ -1,0 +1,25 @@
+vertex         n000         0
+vertex         n001         0
+vertex         n003         0
+vertex         n005         0
+vertex         n007         0
+vertex         n002         0
+vertex         n004         0
+vertex         n006         0
+vertex         n008         0
+vertex         n009         0
+vertex         n010         0
+label         n001             Outgroup     2
+label         n002                   S1     4
+label         n004                   S2     4
+label         n010                  Adm     4
+ledge  b_n000_n001         n000         n001     0.167399
+redge  b_n000_n003         n000         n003     0.167399
+ledge  b_n003_n005         n003         n005     0.044030
+redge  b_n003_n007         n003         n007     0.052560
+ledge  b_n005_n002         n005         n002     0.000000
+redge  b_n005_n006         n005         n006     0.030740
+ledge  b_n007_n004         n007         n004     0.000000
+redge  b_n007_n008         n007         n008     0.030911
+ledge  b_n009_n010         n009         n010     0.123301
+admix         n009        n006       n008      0.499308     0.500692

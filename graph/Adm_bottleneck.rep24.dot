@@ -1,0 +1,22 @@
+digraph G { 
+size = "7.5,10" ;
+labelloc = "t" ; 
+label = "graph/Outgroup.S1.S2.Adm.2way.1.graph ::      Out          S1       Out          S2      0.294198     0.294308     0.000111     0.015602     0.007 
+" ; 
+
+        n001  [ label = "Outgroup" ] ; 
+        n002  [ label = "S1" ] ; 
+        n004  [ label = "S2" ] ; 
+        n010  [ label = "Adm" ] ; 
+n000 -> n001 [  label = "147" ] ; 
+n000 -> n003 [  label = "147" ] ; 
+n003 -> n005 [  label = "7" ] ; 
+n003 -> n007 [  label = "28" ] ; 
+n005 -> n002 [  label = "21" ] ; 
+n005 -> n006 [  label = "4" ] ; 
+n007 -> n004 [  label = "10" ] ; 
+n007 -> n008 [  label = "4" ] ; 
+n009 -> n010 [  label = "16" ] ; 
+n006 -> n009 [ style=dotted,  label = "49%" ] ; 
+n008 -> n009 [ style=dotted,  label = "51%" ] ; 
+} 

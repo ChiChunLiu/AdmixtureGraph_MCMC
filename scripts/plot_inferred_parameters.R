@@ -5,8 +5,8 @@ setwd('~/Desktop/workspace/AdmixtreGraph2020/output/')
 
 
 parameter_df = list()
-for (i in 1:19){
-  parameter_df[[i]] = read_tsv(paste0('Adm_bottleneck.rep', i, '.txt'),
+for (i in 1:100){
+  parameter_df[[i]] = read_tsv(paste0('standard_rep', i, '.txt'),
                              col_names = c('rep', 'par', 'val'))
 }
 parameter_df = bind_rows(parameter_df)
@@ -24,7 +24,7 @@ for (i in seq_along(pars)){
   plots[[i]] <- parameter_df %>% 
     filter(par == p) %>%
     ggplot(., aes(x=val)) +
-      geom_density() +
+      geom_histogram() +
       geom_vline(data = true_pars %>% filter(par == p),
                  aes(xintercept=val),
                  color="blue", linetype="dashed", size=1) +

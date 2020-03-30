@@ -1,0 +1,9 @@
+data/*.snp
+data/*.geno
+data/*.bed
+data/*.bim
+data/*.fam
+data/*.map
+data/*.nosex
+data/*.ped
+data/*tmp*

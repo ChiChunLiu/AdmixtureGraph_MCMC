@@ -21,11 +21,15 @@ echo -e 'outpop: Outgroup\nblgsize: 0.001\ndiag: .0001\nhires: YES' >> ${param_f
 echo -e 'initmix: 1000\nprecision: .0001\nzthresh: 2.0' >> ${param_file}
 echo -e 'terse: NO\nuseallsnps: NO' >> ${param_file}
 
+generate=${2:-NO}
+if [ $generate = yes ]
+then
 ${graphwriter} --pop=Outgroup,S1 > graph/Outgroup.S1.graph
 ${graphwriter} --in=graph/Outgroup.S1 --pop=S2 --at=b_n000_n002
 mv graph/Outgroup.S1.S2.1.graph graph/Outgroup.S1.S2.graph
 ${graphwriter} --in=graph/Outgroup.S1.S2 --pop=Adm
+fi
 
 graph_prefix="graph/Outgroup.S1.S2.Adm.2way.1.graph"
-${qpGraph} -p ${param_file} -g ${graph_prefix} -o ${graph_prefix}.out -d ${graph_prefix}.dot | tee ${graph_prefix}.log
-dot -Tps < ${graph_prefix}.dot > ${graph_prefix}.ps
+${qpGraph} -p ${param_file} -g ${graph_prefix} -o graph/${data_prefix}.out -d graph/${data_prefix}.dot | tee graph/${data_prefix}.log
+dot -Tps < graph/${data_prefix}.dot > graph/${data_prefix}.ps
